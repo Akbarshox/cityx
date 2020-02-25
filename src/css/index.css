@@ -1,0 +1,13 @@
+@import url("home.css");
+@font-face {
+    font-family: 'sacramento';
+    src: url('../assets/fonts/Sacramento-Regular.ttf') format('truetype');
+}
+
+body{
+    background: url("../assets/home.png") no-repeat 40px 0;
+}
+.container {
+    margin-left: 60px;
+    color: #00f7ce;
+}
