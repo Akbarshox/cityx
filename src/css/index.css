@@ -3,11 +3,25 @@
     font-family: 'sacramento';
     src: url('../assets/fonts/Sacramento-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'orbitron';
+    src: url('../assets/fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+}
 
 body{
-    background: url("../assets/home.png") no-repeat 40px 0;
+    background: url("../assets/home.png") fixed 40px center;
+    background-size: cover;
 }
 .container {
     margin-left: 60px;
     color: #00f7ce;
+}
+.loading {
+    position: absolute;
+    font-family: orbitron, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    top: 40%;
+    left: 45%;
 }
