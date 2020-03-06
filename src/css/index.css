@@ -1,4 +1,8 @@
 @import url("home.css");
+@import url("about.css");
+@import url("skills.css");
+@import url("mywork.css");
+@import url("contact.css");
 @font-face {
     font-family: 'sacramento';
     src: url('../assets/fonts/Sacramento-Regular.ttf') format('truetype');
@@ -7,7 +11,10 @@
     font-family: 'orbitron';
     src: url('../assets/fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'nunito';
+    src: url('../assets/fonts/Nunito-Black.ttf') format('truetype');
+}
 body{
     background: url("../assets/home.png") fixed 40px center;
     background-size: cover;

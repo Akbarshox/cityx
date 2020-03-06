@@ -1,0 +1,81 @@
+.form-contact {
+    position: absolute;
+    display: inline-flex;
+    top: 30%;
+    left: 20%;
+}
+.form-ul li {
+    list-style-type: none;
+    padding: 14px;
+}
+.input-form{
+    padding: 15px;
+    width: 300px;
+    font-family: orbitron, serif;
+    border: none;
+    border-radius: 3px;
+    background-color: #565656;
+    color: #00f7ce;
+    outline: #00f7ce;
+    font-size: 15px;
+}
+.input-error{
+    padding: 15px;
+    width: 300px;
+    font-family: orbitron, serif;
+    border-radius: 5px;
+    background-color: #565656;
+    color: #00f7ce;
+    outline: #00f7ce;
+    font-size: 15px;
+    border-bottom-color: red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+::placeholder {
+    color: #00f7ce;
+    opacity: 0.6;
+    font-family: orbitron, sans-serif;
+}
+
+.button {
+    position: absolute;
+    left: 50%;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.svg-contact {
+    position: relative;
+    left: -8px;
+    top: -3px;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.button:hover {
+    transition: 1s ease-in-out;
+    background: #00f7ce;
+}
+
+.button:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.button span {
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: -45px;
+}

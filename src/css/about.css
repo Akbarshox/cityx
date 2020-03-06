@@ -1,0 +1,72 @@
+.wrapper {
+    perspective: 600px;
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    z-index: -10000;
+}
+
+.cube {
+    position: absolute;
+    animation: rotatecube 16s linear infinite;
+    height: 30ch;
+    list-style: none;
+    margin: 20% auto;
+    transform-style: preserve-3d;
+    width: 30ch;
+}
+
+.side {
+    animation: rainbow 16s linear infinite;
+    border: 1px solid #00f7ce;
+    height: 30ch;
+    position: absolute;
+    text-align: center;
+    width: 30ch;
+}
+
+.cube img {
+    width: 100%;
+    height: auto;
+}
+
+.front  { transform:                  translateZ(15ch); }
+.top    { transform: rotateX( 90deg)  translateZ(15ch); }
+.right  { transform: rotateY( 90deg)  translateZ(15ch); }
+.left   { transform: rotateY(-90deg)  translateZ(15ch); }
+.bottom { transform: rotateX(-90deg)  translateZ(15ch); }
+.back   { transform: rotateY(-180deg) translateZ(15ch); }
+
+@keyframes rotatecube {
+    to {
+        transform: rotateY(-1turn) rotateX(2turn)
+    }
+}
+
+@keyframes rainbow {
+    0% { opacity: 0.4 }
+    20% { opacity: 0.6  }
+    40% { opacity: 0.7 }
+    60% { opacity: 0.8 }
+    80% { opacity: 0.9 }
+    100% { opacity: 1 }
+}
+
+.about-me {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    z-index: -1000;
+}
+.about-p {
+    font-family: orbitron, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 0.2;
+}
+.about-title {
+    width: 30%;
+    font-family: "Calibri Light",sans-serif;
+    font-size: 16.5px;
+    margin-left: 15px;
+}

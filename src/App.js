@@ -18,7 +18,7 @@ export default function App() {
    useEffect(() => {
       const timer = setTimeout(() => {
          setLoading(false)
-      }, 4000);
+      }, 100);
       return () => clearTimeout(timer);
    }, []);
    
@@ -31,7 +31,6 @@ export default function App() {
               //size={"150px"} this also works
               color={"#00f7ce"}
               loading={isLoading}
-              height="2"
               width="50%"
           />
        </div>

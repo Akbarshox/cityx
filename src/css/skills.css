@@ -1,0 +1,56 @@
+.item-skill {
+    background: white;
+    border-radius: 100%;
+}
+
+.list-skill {
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
+    width: 50%;
+    height: auto;
+    z-index: -100;
+    top: 30%;
+    right: 5%;
+}
+
+.list-skill > div {
+    position: absolute;
+    will-change: transform, width, height, opacity;
+    padding: 15px;
+}
+
+.list-skill > div > div {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-transform: uppercase;
+    line-height: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.2);
+    background-color: #00f7ce;
+}
+.skill-text {
+    color: black;
+    font-size: 20px;
+    font-family: orbitron,sans-serif;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.skills-ex{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    z-index: -1000;
+}
+.skill-p {
+    font-family: orbitron, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 0.2;
+}
