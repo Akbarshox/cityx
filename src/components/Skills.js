@@ -37,10 +37,13 @@ export default function Skills() {
           <div className="skills-ex">
              <p className="skill-p">Skills & </p>
              <p className="skill-p">Experience</p>
-             <p className="about-title">Meticulous web developer with over a
-                year of front end experience and passion
-                for responsive website design and a firm believer in the mobile-first approach.
-                Implemented new responsive website approach which increased mobile traffic by 20%.</p>
+             <p className="about-title">
+                My main job in this sphere is doing the Front-End side of the web site (Client side of the web).
+                HTML, CSS, JS, building small and medium web apps with React JS,
+                custom plugins, features, animations, and coding interactive layouts.
+                I do also have a small experience with React Native as well, currently I am working on this.
+                I have interests in Machine Learning, Cyber Security and Blockchain. In the Future I really want to learn them as well.
+             </p>
           </div>
           <div {...bind} className="list-skill" style={{height: Math.max(...heights)}}>
              {transitions.map(({item, props: {xy, ...rest}, key}) => (
