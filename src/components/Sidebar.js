@@ -78,10 +78,14 @@ function Sidebar(props) {
           </div>
           <div className={classes.items2}>
              <List>
-                <FontAwesomeIcon icon={faFacebookF} className={classes.fa} />
-                <FontAwesomeIcon icon={faInstagram} className={classes.fa} />
-                <FontAwesomeIcon icon={faGithub} className={classes.fa} />
-                <FontAwesomeIcon icon={faStackOverflow} className={classes.fa} />
+                <a href="facebook.com/profile.php?id=100008033747950">
+                   <FontAwesomeIcon icon={faFacebookF} className={classes.fa} />
+                </a>
+                <a href="https://www.instagram.com/_a_shox_/"><FontAwesomeIcon icon={faInstagram} className={classes.fa} /></a>
+                <a href="https://github.com/Akbarshox"><FontAwesomeIcon icon={faGithub} className={classes.fa} /></a>
+                <a href="https://stackoverflow.com/users/12605298/akbarjon-mukhammatjanov">
+                   <FontAwesomeIcon icon={faStackOverflow} className={classes.fa} />
+                </a>
              </List>
           </div>
        </div>

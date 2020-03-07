@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@types/lodash-es": "^4.17.3",
     "autoprefixer": "6.7.2",
     "babel-core": "6.22.1",
     "babel-jest": "18.0.0",
@@ -53,6 +54,7 @@
     "http-proxy-middleware": "0.17.3",
     "jest": "18.1.0",
     "json-loader": "0.5.4",
+    "lodash-es": "^4.17.15",
     "object-assign": "4.1.1",
     "postcss-loader": "1.2.2",
     "promise": "7.1.1",

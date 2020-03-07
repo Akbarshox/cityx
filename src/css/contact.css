@@ -1,8 +1,8 @@
 .form-contact {
     position: absolute;
     display: inline-flex;
-    top: 30%;
-    left: 20%;
+    top: 20%;
+    left: 13%;
 }
 .form-ul li {
     list-style-type: none;
@@ -78,4 +78,17 @@
     position: absolute;
     margin-top: -45px;
     margin-left: -45px;
+}
+.script-bf-box {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    background: black;
+    margin: 5px;
+    will-change: transform;
+}
+.contact-spring {
+    position: absolute;
+    left: 50%;
+    top: 20%;
 }
