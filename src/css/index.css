@@ -3,6 +3,7 @@
 @import url("skills.css");
 @import url("mywork.css");
 @import url("contact.css");
+@import url('error.css');
 @font-face {
     font-family: 'sacramento';
     src: url('../assets/fonts/Sacramento-Regular.ttf') format('truetype');

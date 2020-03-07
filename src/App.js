@@ -32,6 +32,7 @@ export default function App() {
               color={"#00f7ce"}
               loading={isLoading}
               width="50%"
+              height={2}
           />
        </div>
    )}else{

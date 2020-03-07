@@ -6,6 +6,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import MyWork from "./components/MyWork";
+import ErrorPage from "./404";
 
 export default function Routes() {
    return(
@@ -17,6 +18,7 @@ export default function Routes() {
             <Route path="/skills" component={Skills} />
             <Route path="/did" component={MyWork} />
             <Route path="/contact" component={Contact} />
+            <Route path="*" component={ErrorPage} />
          </Switch>
        </BrowserRouter>
    )
