@@ -29,6 +29,7 @@ export default function About() {
              </ul>
           </div>
           <Particles
+              className="particles"
               params={{
                  "particles": {
                     "number": {

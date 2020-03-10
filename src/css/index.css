@@ -17,7 +17,8 @@
     src: url('../assets/fonts/Nunito-Black.ttf') format('truetype');
 }
 body{
-    background: url("../assets/home.png") fixed 40px center;
+    /* background: url("../assets/home.png") fixed 40px center; */
+    background-color: #232323;
     background-size: cover;
 }
 .container {
@@ -32,4 +33,12 @@ body{
     color: #fff;
     top: 40%;
     left: 45%;
+}
+.particles {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }

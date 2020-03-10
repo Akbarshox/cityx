@@ -5,6 +5,7 @@ export default function MyWork() {
    return(
        <div className="container">
           <Particles
+              className="particles"
               params={{
                  "particles": {
                     "number": {

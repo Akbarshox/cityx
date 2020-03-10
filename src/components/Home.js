@@ -29,6 +29,7 @@ export default function Home() {
           <img src={shokh} className="a" alt="req" />
           </motion.div>
           <Particles
+              className="particles"
               params={{
                  "particles": {
                     "number": {

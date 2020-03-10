@@ -54,6 +54,7 @@ export default function Skills() {
              ))}
           </div>
           <Particles
+              className="particles"
               params={{
                  "particles": {
                     "number": {
